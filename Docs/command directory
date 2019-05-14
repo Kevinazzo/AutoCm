@@ -1,0 +1,63 @@
+basic commands:
+	repository management:
+		repository creation
+		repository permission
+
+	branch management:
+		branch creation
+		branch permission
+		branch merge
+
+	Application access management:
+		register Bitbucket user
+		register JIRA user
+
+	Issue management:
+		matrix upload
+		issue deletion
+
+	Files&Folders management:
+		Folder permission
+		Folder creation
+
+basic commands: (per platform):
+	Bitbucket:
+		branch merge
+		branch permission
+		branch permission
+		repository creation
+		repository permission
+		user registration
+	JIRA:
+		matrix upload
+		user registration
+		issue deletion
+	Cospace:
+		Folder creation
+		Folder permission
+
+basic commands (per task):
+	create
+		JIRA user
+		git branch
+		Bitbucket user
+		Drive folder
+		repository
+
+	update
+
+	delete
+		JIRA issue
+
+	upload
+
+	permission
+
+
+
+########################################################################################
+
+Normal syntax:
+new branch mitelcel-appios feature/tlc-45 from Develop userfofo,userbato,userzero,userbanano
+
+[command] [
