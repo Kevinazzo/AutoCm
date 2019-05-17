@@ -37,16 +37,16 @@ def login():
 		except:
 			pass
 
-def getUnreads():
-	unreads = []
+def getUnread():
+	unread = []
 	mailList = driver.find_elements_by_css_selector("li.list-item.selectable")
 	for element in mailList:
 		cssclass = element.get_attribute("class")
 		if str(cssclass).__contains__('unread'):
-			unreads.append(element)
-	return unreads
+			unread.append(element)
+	return unread
 
 
 browser.goTo('https://mail.cospace.cloud/appsuite/ui#!!&app=io.ox/mail&folder=default0/INBOX')
 login()
-getUnreads()
+getUnread()

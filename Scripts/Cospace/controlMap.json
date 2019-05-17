@@ -1,8 +1,32 @@
 {
-	"name": {
-		"htmlID": "",
+	"usrTxTBox": {
+		"htmlID": "io-ox-login-username",
 		"Xpath": "",
 		"CssSelector": "",
 		"CssRoute": ""
+	},
+		"pswTxTBox": {
+		"htmlID": "io-ox-login-password",
+		"Xpath": "",
+		"CssSelector": "",
+		"CssRoute": ""
+	},
+	"loginButton": {
+		"htmlID": "io-ox-login-button",
+		"Xpath": "",
+		"CssSelector": "",
+		"CssRoute": ""
+	},
+	"mailList": {
+		"htmlID": "",
+		"Xpath": "",
+		"CssSelector": "li.list-item.selectable",
+		"CssRoute": ""
+	},
+	"mailBody": {
+		"htmlID": "",
+		"Xpath": "",
+		"CssSelector": "",
+		"CssRoute": "html body.mail-detail-content.noI18n.colorQuoted.simple-mail"
 	}
 }
