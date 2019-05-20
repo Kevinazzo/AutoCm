@@ -20,6 +20,7 @@ def mapControls():
 	pass
 #endregion
 
+
 # Log in
 def login():
 	print("> awaiting logIn credentials")
@@ -46,7 +47,10 @@ def getUnread():
 			unread.append(element)
 	return unread
 
+# Controller running process and method calling function
+def worker():
+	browser.goTo('https://mail.cospace.cloud/appsuite/ui#!!&app=io.ox/mail&folder=default0/INBOX')
+	login()
+	getUnread()
 
-browser.goTo('https://mail.cospace.cloud/appsuite/ui#!!&app=io.ox/mail&folder=default0/INBOX')
-login()
-getUnread()
+
