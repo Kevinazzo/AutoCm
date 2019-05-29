@@ -5,7 +5,7 @@
 		"CssSelector": "",
 		"CssRoute": ""
 	},
-		"pswTxTBox": {
+	"pswTxTBox": {
 		"htmlID": "io-ox-login-password",
 		"Xpath": "",
 		"CssSelector": "",
