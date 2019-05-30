@@ -1,14 +1,14 @@
 from main import br as browser
-from main import user, psw
-from Scripts import ScriptBase
 
-import _json
 
-class CospaceController(ScriptBase):
+class CospaceController():
 	"""function-container class for each script"""
-	def mapControls(self):
-		super() we need to call super here... find HOW now
 
+	def __init__(self):
+		pass
+
+	def mapControls(self):
+		pass
 
 	# Log in
 	def login(self):
